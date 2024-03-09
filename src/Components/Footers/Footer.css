@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.f-content{
+    position: absolute;
+    display: flex;align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 4rem;
+    color:#214132;
+    font-size: 20;
+  
+
+
+}
+
+
+
+
+.column{
+    flex-direction: row;
+    gap: 1rem ;
+    display: flex;
+    
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    .f-content{
+        transform: 0.4px;
+
+    }
+    
+      
+    
+    
+    
+} 
